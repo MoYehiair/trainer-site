@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid white;
+  padding: 2rem;
+  position: relative;
+}
+
+.icons {
+  display: flex;
+  gap: 3rem;
+  padding: 1rem;
+  color: white;
+}
+.icons > a > img {
+  width: 2rem;
+  cursor: pointer;
+
+
+}
+.main-logo{
+  /* height: 3rem; */
+  width: 9rem;
+}
+.icons > :nth-child(1) {
+  color: var(--orange);
+}
+.blur-footer-1 {
+  width: 26rem;
+  height: 11rem;
+  left: 50%;
+  /* bottom: 0; */
+}
+.blur-footer-2 {
+  width: 26rem;
+  height: 11rem;
+  left: 6rem;
+}
+.footer .contact{
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+}
